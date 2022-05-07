@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <center>
+        <!-- <form action="{{url_for('srk')}}" method="post"> -->
+            <form action="{{ url_for('srk')}}" method="post">
+
+            <h1>analysis of a person getting the canser after 10 years</h1>
+        <h2>Enter your gender</h2>
+         <select name="gender" id="first">
+             <option value="Male">Male</option>
+             <option value="Female">Female</option>
+         </select> 
+          <h2>Enter Age</h2>
+         <input type="number" name="age" id="second" required>
+         <h1>Is these person is Smoker</h1>
+         <select name="smoker" id="third" required>
+             <option value="_yes_">Yes</option>
+             <option value="_no_">No</option>
+         </select>
+         <h1>cigerets per day</h1>
+         <input type="number" id="fourth" name="cig/day">
+         <h2>BPMeds value</h2>
+         <input type="number" id="fifth" name="BPMeds">
+         <h1>prevalentStroke vaue</h1>
+         <input type="number" id="sixth" name="prevalentStroke">
+         <h1>Is prevalentHyp</h1>
+         <select name="prevalentHyp" id="seventh" >
+             <option value="yes">yes</option>
+             <option value="no">no</option>
+         </select>
+         <h1>Is diabetes</h1>
+         <select name="diabetes__" id="eighth">
+             <option value="yes">yes</option>
+             <option value="no">no</option>
+         </select>
+         <h1>Enter totCholvalue</h1>
+         <input type="number" id="ninth" name="totCholvalue">
+         
+         <h1>Enter diaBPvalue</h1>
+         <input type="number" id="tenth" name="diaBPvalue">
+         
+         <h1>Enter sysBPvalue</h1>
+         <input type="number" id="eleven" name="sysBPvalue">
+         
+         <h1>Enter diaBPvalue</h1>
+         <input type="number" id="twelev" name="diaBPvalue">
+         
+         <h1>Enter BMIvalue</h1>
+         <input type="number" id="thirteen" name="BMIvalue">
+         
+         <h1>Enter heartRatevalue</h1>
+         <input type="number" id="fourteen" name="heartRatevalue">
+         
+         <h1>Enter glucosevalue</h1>
+         <input type="number" id="fifyteen" name="glucosevalue">
+         <br><br><button id="sub" type="submit">shows the whether the person is getting canser are not after 10years</button>
+        </form><br><br>
+  </center>
+</body>        
+
+</html>
